@@ -1,0 +1,16 @@
+.App {
+  margin: 5%;
+}
+
+.Blog {
+  margin: 10%;
+  text-align: center;
+}
+
+button {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=App.css.map */

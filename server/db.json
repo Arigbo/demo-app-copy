@@ -1,0 +1,31 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "hello",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nam aliquam harum unde distinctio illo omnis aut! Sunt in hic repudiandae, ea nobis ipsum aliquid vitae ex autem! Possimus deleniti facilis deserunt sequi ipsam nesciunt asperiores minus nisi non dicta accusantium sapiente pariatur, illo voluptates ullam id aliquam eos praesentium repellat! Ad cum et consequatur, provident molestias ullam sit numquam reprehenderit vel deleniti ratione excepturi similique placeat mollitia. Est, eaque soluta laborum quas dicta blanditiis, enim libero possimus illum ipsam explicabo sed velit? Perferendis ad ipsum non quis necessitatibus laudantium, fuga veniam consectetur id excepturi minima dolorem! Laudantium, minima autem.",
+      "author": "JESSE",
+      
+    }
+  ],
+  "commennts": [
+    {
+      "id": 1,
+      "body": "some comments",
+      "post id": 2
+    },
+    {
+      "id": 2,
+      "body": "some comments",
+      "post id": 2
+    },
+    {
+      "id": 3,
+      "body": "some comments",
+      "post id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
