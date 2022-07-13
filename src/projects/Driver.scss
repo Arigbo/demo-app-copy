@@ -1,0 +1,210 @@
+* {
+    box-sizing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Drive {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(driv.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    height: 658px;
+
+    .Drive-with {
+        margin-top: 200px;
+        color: white;
+
+        h1 {
+            font-size: 61px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .form {
+        margin-top: 56px;
+        background-color: white;
+        height: 511px;
+        width: 343px;
+
+
+        h3 {
+            padding-top: 23px;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .p {
+            padding-top: 24px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .signup {
+            // background-color: white;
+
+            p {
+                padding-bottom: 16px;
+
+                text {
+                    margin-left: 20px;
+                    font-size: 12px;
+                }
+
+                label {
+                    margin-left: 20px;
+
+                    span {
+                        color: gray;
+                    }
+                }
+
+                input {
+                    margin-left: 20px;
+                    width: 275px;
+                    border-radius: 8px;
+                    border: 1px solid #646464;
+                    padding-top: 12px;
+                }
+            }
+
+            .form-items {
+                padding: 10px;
+            }
+        }
+
+        button {
+            margin-top: 21.75px;
+            width: 335px;
+            margin-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 15px;
+            border: none;
+            background-color: rgba(22, 91, 155, 1);
+            font-size: 14px;
+            color: white;
+        }
+    }
+}
+
+.why {
+    .why-dropple {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 35px;
+    }
+
+    .why-grid {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        // margin-left: 120px;
+        .lp {
+            h5 {
+                font-size: 24px;
+            }
+
+            margin-left: 79px;
+
+            .l {
+                padding-bottom: 50px;
+            }
+
+            p {
+                padding-bottom: 20px;
+            }
+        }
+
+        .grid-box {
+            height: 300px;
+            width: 250px;
+            border: black 1px solid;
+            margin-left: 83px;
+        }
+    }
+
+    fieldset {
+        width: 943.5px;
+        height: 719px;
+        margin-left: 165px;
+        margin-top: 96px;
+
+        .QA-t {
+            margin-left: 76.5px;
+            margin-top: 144px;
+
+            p {
+                padding-bottom: 7px;
+                padding-top: 7px;
+            }
+
+            h6 {
+                font-size: 20px;
+                color: #165B9B;
+            }
+        }
+    }
+
+    button {
+        margin-left: 39.1%;
+        font-size: 14px;
+        padding-top: 15.5px;
+        padding-left: 71px;
+        padding-right: 71px;
+        background: #165B9B;
+        color: white;
+        padding-bottom: 15.5px;
+        border: none;
+        border-radius: 16px;
+        margin-top: 28px;
+    }
+
+    footer {
+        text-align: center;
+
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            margin-top: 64px;
+
+            span {
+                color: #165B9B;
+                ;
+            }
+        }
+
+        h6 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        select {
+            width: 150px;
+            height: 17px;
+            color: #165B9B;
+            border: 1px solid #165B9B;
+            border-radius: 16px;
+            padding: 10px 16px 10px 16px;
+            height: 48px;
+            margin-top: 46px;
+        }
+
+        .footer-blue {
+            height: 176px;
+            width: 100%;
+            background-color: rgba(22, 91, 155, 1);
+            margin-top: 66px;
+        }
+    }
+}
