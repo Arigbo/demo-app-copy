@@ -1,12 +1,14 @@
 import React from "react";
-
-import './AboutPage.scss';
+import './About.scss';
+// import './AboutPage.scss';
 function AboutPage() {
     return (
        
         <div>
          <section>
+         
             <div className="part1">
+          
                 <div className="first-section">
                     <h1>About</h1>
 
